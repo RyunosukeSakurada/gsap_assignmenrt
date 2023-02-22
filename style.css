@@ -1,0 +1,72 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  outline:none;
+  border: none;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+
+/* HEADER */
+header{
+  padding: 2% 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 3rem;
+}
+
+.nav-links a{
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+/* HERO */
+.hero{
+  padding: 2% 10rem;
+  position: relative;
+  margin: 0 30rem;
+}
+
+.hero-top{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(154, 154, 154);
+}
+.hero h2{
+  font-size: 12rem;
+}
+.detail-top{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.detail-top span{
+  color: rgb(147, 178, 54);
+}
+.detail-container{
+  display: flex;
+}
+.detail-container p{
+  width: 35%;
+  margin-top: 1rem;
+}
+.beer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.beer img{
+  height: 400px;
+}
